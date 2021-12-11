@@ -11,7 +11,7 @@ class CategoryMealsScreen extends StatelessWidget {
 
   // const CategoryMealsScreen(
   //     {@required this.categoryId, @required this.categoryTitle});
-  //  lkjh
+
   @override
   Widget build(BuildContext context) {
     final routeArguments =
