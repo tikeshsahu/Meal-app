@@ -56,7 +56,7 @@ const DUMMY_CATEGORIES = [
 ];
 
 const DUMMY_MEALS = const [
-   Meal(
+  Meal(
     id: 'm1',
     categories: [
       'c1',
@@ -66,7 +66,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecv4j17GRprAzyRcu_yQDz0Po6dhMedLL5A&usqp=CAU',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
