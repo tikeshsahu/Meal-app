@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:meals_app/screens/categories_screen.dart';
 import 'package:meals_app/screens/category_meals_screen.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -19,16 +18,12 @@ class MyApp extends StatelessWidget {
           textTheme: ThemeData.light().textTheme.copyWith(
                 bodyText1: TextStyle(color: Color.fromRGBO(15, 50, 50, 1)),
                 bodyText2: TextStyle(color: Color.fromRGBO(15, 50, 50, 1)),
-                // title : TextStyle(
-                //    fontSize: 20,
-                //    fontFamily: GoogleFonts.robotoCondensed().fontFamily
-                //  ),
               )),
       //home: CategoriesScreen(),
       initialRoute: '/',
       routes: {
-        '/' : (ctx) => CategoriesScreen(),
-        CategoryMealsScreen.routeName   : (ctx) => CategoryMealsScreen(),
+        '/': (ctx) => CategoriesScreen(),
+        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
       },
     );
   }
