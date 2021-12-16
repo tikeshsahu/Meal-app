@@ -29,7 +29,7 @@ class MyDrawer extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(
-            height: 50,
+            height: 49,
           ),
           Container(
             color: Colors.amber,
@@ -53,7 +53,7 @@ class MyDrawer extends StatelessWidget {
             Navigator.of(context).pushReplacementNamed('/');
           }),
           buildListTile('Filters', Icons.settings,
-            () => Navigator.of(context).pushReplacementNamed(FilterScreen.routeName)
+            () => Navigator.of(context).pushNamed(FilterScreen.routeName)
           )
         ],
       ),
